@@ -55,7 +55,7 @@ ROOT_URLCONF = 'urlshortner.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['127.0.0.1:8000', '127.0.0.1:8090', 'shorturl.herokuapp.com'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
